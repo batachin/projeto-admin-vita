@@ -1,9 +1,7 @@
 import BarraLateral from "./components/barra-lateral";
 import Cabecalho from "./components/cabecalho";
 import Conteiner from "./components/conteiner";
-import Announcements from "./components/announcements";
-
-import "./styles.css";
+import "./styless.css";
 
 function App() {
   return (
@@ -11,7 +9,6 @@ function App() {
         <BarraLateral />
         <Cabecalho />
         <Conteiner />
-        <Announcements />
     </>
   );
 }

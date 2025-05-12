@@ -1,4 +1,4 @@
-body {
+html body {
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -12,15 +12,18 @@ body {
 .barra-lateral {
     background-color: oklch(0.685 0.169 237.323);
     color: white;
-    display: grid;
-    grid-row: 1 / 3;
-
 }
 
 .opcao {
     display: grid;
     grid-template-rows: 120px 30px 30px 30px 30px 120px 30px 30px 30px;
     padding: 20px;
+}
+
+.opcoes {
+    background-color: oklch(0.685 0.169 237.323);
+    border: 0px;
+    color: white;
 }
 
 .pesquisa {

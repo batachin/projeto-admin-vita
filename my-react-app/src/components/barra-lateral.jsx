@@ -7,41 +7,37 @@ export default function barraLateral() {
               Dashboard
             </h1>
 
-            <div className="logo" id="dashboard">
-              Dashboard
-            </div>
-
-            <div className="opcoes" id="home">
+            <button className="opcoes" id="home">
               Home
-            </div>
+            </button>
 
-            <div className="opcoes" id="profile">
+            <button className="opcoes" id="profile">
               Profile
-            </div>
+            </button>
 
-            <div className="opcoes" id="messagens">
+            <button className="opcoes" id="messagens">
               Messagens
-            </div>
+            </button>
 
-            <div className="opcoes" id="tasks">
+            <button className="opcoes" id="tasks">
               Tasks
-            </div>
+            </button>
 
-            <div className="opcoes" id="communities">
+            <button className="opcoes" id="communities">
               Communities
-            </div>
+            </button>
 
-            <div className="opcoes" id="settings">
+            <button className="opcoes" id="settings">
               Settings
-            </div>
+            </button>
 
-            <div className="opcoes" id="support">
+            <button className="opcoes" id="support">
               Support
-            </div>
+            </button>
 
-            <div className="opcoes" id="privacy">
+            <button className="opcoes" id="privacy">
               Privacy
-            </div>
+            </button>
           </div>
         </div>
       </>
